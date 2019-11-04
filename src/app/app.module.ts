@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ComandaComponent } from './comanda/comanda.component';
-
+import {ReactiveFormsModule} from '@angular/forms'; 
 @NgModule({
   declarations: [
     AppComponent,
@@ -12,7 +12,8 @@ import { ComandaComponent } from './comanda/comanda.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
